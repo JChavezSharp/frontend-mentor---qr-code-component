@@ -35,7 +35,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 This exercise was a great way to practice what I have been learning about HTML and CSS over the past few weeks. I measured the dimensions of the elements in the provided design screenshots so I could approximate the original as well as possible, I eyeballed some of the sizes and color picked the background and font colors.
 
-The trickiest part was vertically centering the QR code card component without having the scrollbar appear. I centered the card by applying the grid value to the grid property for the body element, I also applied the center value for the place-items property. This automatically centers elements inside grid cells on both axes. I also had to set the height of both the body and html elements to 100vh, doing so results nearly gets to the desired result, except the margin of the body needs to be set to 0 so it does not overflow from the html element and causes a scrollbar to appear. Conclusion: never forget the box model it will tell help you know what is wrong with alignment on your website.  
+The trickiest part was vertically centering the QR code card component without having the scrollbar appear. I centered the card by applying the grid value to the grid property for the body element, I also applied the center value for the place-items property. This automatically centers elements inside grid cells on both axes. I also had to set the height of both the body and html elements to 100vh, doing gets close to the desired result, except the margin of the body needs to be set to 0 so it does not overflow from the html element and causes a scrollbar to appear. Conclusion: never forget about the box model ✏️.  
 
 
 ```css
@@ -54,7 +54,7 @@ The trickiest part was vertically centering the QR code card component without h
 ### Useful resources
 
 - [Stack Overflow article - how to center element using table without scrollbars](https://stackoverflow.com/questions/53969739/how-to-center-element-using-tables-without-scrollbars) - This helped me realize that the scrollbar was appearing because there was a margin on my body element and needed to set it to 0 for the QR code component to center without creating a scrollbar.
-- [FreeCodeCamp - CSS Vertical Align – How to Center a Div, Text, or an Image  ](https://www.freecodecamp.org/news/css-vertical-align-how-to-center-a-div-text-or-an-image-example-code/) - Nicce explanation for how to vertically center divs.
+- [FreeCodeCamp - CSS Vertical Align – How to Center a Div, Text, or an Image  ](https://www.freecodecamp.org/news/css-vertical-align-how-to-center-a-div-text-or-an-image-example-code/) - Nice explanation for how to vertically center divs.
 
 
 ## Author
