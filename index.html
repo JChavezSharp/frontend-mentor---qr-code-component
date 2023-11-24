@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    :root {font-size: 12px;}
+    html, body {height: 100vh;}
+    body {
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background-color: #D5E1EF;
+      color: #26334C;
+      font-family: sans-serif;
+    }
+    .card {
+      background-color: #ffffff;
+      max-width: min(30rem,85vw) ;
+      border-radius: 5%;
+      box-shadow: 10px 20px 3rem #82879343;
+    }
+    figure {
+      margin: 1.5rem;
+    }
+    figure > img {
+      border-radius: 5%;
+      max-width: 100%;
+      margin-inline: auto;
+    }
+    figcaption {
+      margin: 2rem 7.5% 3rem 7.5%;
+      text-align: center;
+    }
+    figcaption > h1 {
+      color: inherit;
+      font-size: 1.8rem;
+    }
+    figcaption > p {
+      color: #828793;
+      font-size: 1.4rem;
+      text-align: inherit;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <figure>
+      <img src="images/image-qr-code.png" alt="QR code">
+      <figcaption>
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </figcaption>
+    </figure>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/JChavezSharp">JChavezSharp</a>.
+  </div>
+</body>
+</html>
